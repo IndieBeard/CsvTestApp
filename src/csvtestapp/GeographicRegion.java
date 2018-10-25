@@ -23,7 +23,7 @@ public class GeographicRegion {
     @Override
     public String toString(){
         //Will output name and area in the format for the project
-        String output = ("Name = " + name + "Area = " + area);
+        String output = ("name: " + name + "; area: " + area + " sq. km");
         return output;
     }
     
